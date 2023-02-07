@@ -1,7 +1,13 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
-  margin: 0;
+  margin: 0 auto;
+    background-image: url(/src/images/illustration-Star-Wars-text-Star-Wars-The-Force-Awakens-Film-poster.com.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,4 +18,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img {
+  display: block;
+  /* max-width: 100%;
+  height: auto; */
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+h1,
+h2,
+h3,
+p
+ {
+  padding: 0;
+  margin: 0;
 }
