@@ -38,10 +38,10 @@ const MovieDetails = () => {
             </div>
           </div>
           <div className={css.linkWrapper}>
-            <Link className={css.link} to="cast">
+            <Link className={css.link} to="cast" state={{ from: location.state.from }}>
               Cast
             </Link>
-            <Link className={css.link} to="reviews">
+            <Link className={css.link} to="reviews" state={{ from: location.state.from }}>
               Reviews
             </Link>
           </div>
